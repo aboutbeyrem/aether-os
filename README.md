@@ -18,10 +18,20 @@ Arch Linux + KDE Plasma underneath, a calm editorial desktop on top, and setup t
 | **`please`** | Package and system jobs without memorising `pacman` flags: `please install …`, `please update`. It always shows the real command and asks before changing anything. |
 | **`please`, the smart half** | Anything that isn't a fixed verb goes to an AI agent that answers or proposes commands. The model is treated as **untrusted**: nothing runs without an explicit yes (default no), and a separate danger classifier, not the model, blocks destructive commands. |
 | **Timeline** | A Btrfs snapshot manager. If an update or a mistake breaks something, roll the system back to a snapshot. |
+| **Snap Layouts** | Windows-11-style tiling: press **Super+Z** (or drag a window to the top of the screen) and pick one of six layouts, with a gold preview of where the window will land. |
 | **Flow** | Aether's own browser, built from source on top of Brave/Chromium, with its own new-tab page and branding. |
 | **One design system** | Every app (welcome, installer, Timeline, Game Ready, terminal, login, lock screen) reads one palette file, so the whole OS switches between warm paper and warm dark in one step. |
 
 <p align="center"><img src="docs/desktop-dark.png" width="49%" alt="Aether desktop, night edition"> <img src="docs/flow-new-tab.png" width="49%" alt="Flow new-tab page"></p>
+
+## Keyboard
+
+| Keys | Does |
+|---|---|
+| `Super` `Z` | Snap Layouts picker for the active window |
+| `please <what you want>` in a terminal | Install, update, or ask the AI half to do something (it always asks first) |
+| `Ctrl` `Shift` `E` in Flow | Customize the new tab |
+| `Ctrl` `Space` in Flow | Command palette |
 
 ## How it's built
 
