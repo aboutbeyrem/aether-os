@@ -47,5 +47,5 @@ The Aether source is private. Aether stands on open-source work (Arch Linux, KDE
 
 ## Built by
 
-[Beyrem](https://github.com/aboutbeyrem), a high-school student in Tunisia, over several months of 2026. The vision, the design, every decision and the field testing are mine; I built it with
+[Beyrem Oueslati](https://www.aboutbeyrem.com), a high-school student in Tunisia, over several months of 2026. The vision, the design, every decision and the field testing are mine; I built it with
 AI coding agents (Claude Code) as my tools for writing the code.
